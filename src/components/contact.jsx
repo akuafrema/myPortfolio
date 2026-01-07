@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { FaLinkedin, FaGithub, FaXTwitter, FaInstagram } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaTwitter, FaInstagram } from "react-icons/fa";
 import { HiMail, HiPhone, HiLocationMarker, HiArrowLeft } from "react-icons/hi";
 
 function Contact() {
@@ -41,7 +41,7 @@ function Contact() {
     },
     {
       name: "Twitter",
-      icon: FaXTwitter,
+      icon: FaTwitter,
       url: "https://x.com/akuafrema06",
      
       ariaLabel: "Follow on Twitter"
