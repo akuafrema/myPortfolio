@@ -1,6 +1,6 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import Home from "./components/Home";
+import Index from "./components/Index";
 import About from "./components/About";
 import Contact from "./components/contact";
 import Navbar from "./components/Navbar";
@@ -11,7 +11,7 @@ function App() {
      <>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Index />} />
         <Route path="/about" element={<About 
          image={calculator}
             name="Digital Calculator"
