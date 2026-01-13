@@ -1,5 +1,5 @@
 import React from "react";
-import portfolio_image from "/src/assets/portfolio_image.webp";
+import portfolio_image from "../assets/portfolio_image.webp";
 import { Link } from "react-router-dom";
 import { FaLinkedin, FaGithub, FaTwitter, FaInstagram } from "react-icons/fa";
 import { HiArrowRight } from "react-icons/hi";
