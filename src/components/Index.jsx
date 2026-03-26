@@ -1,5 +1,5 @@
 import React from "react";
-import portfolio_image from "../assets/portfolio_image.webp";
+import portfolio2 from "/src/assets/portfolio2.webp";
 import { Link } from "react-router-dom";
 import { FaLinkedin, FaGithub, FaTwitter, FaInstagram } from "react-icons/fa";
 import { HiArrowRight } from "react-icons/hi";
@@ -15,7 +15,7 @@ function Home() {
               <div className="relative group">
                 <div className="absolute -inset-1 bg-linear-to-r from-pink-600 to-purple-600 rounded-2xl blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-pulse"></div>
                 <img
-                  src={portfolio_image}
+                  src={portfolio2}
                   alt="Emmanuela Akua Frema Edusei - Front End Developer"
                   className="relative w-64 h-64 md:w-80 md:h-80 rounded-2xl object-cover shadow-2xl"
                 />
